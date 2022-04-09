@@ -1,0 +1,1 @@
+> Le classi sono formate da oggetti, ovvero come esempio due mouse diversi  sono  appartenenti alla classe oggetti anche se sono di forma diversa e di diverso materiale
