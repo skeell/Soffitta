@@ -1,29 +1,33 @@
-\documentclass[12pt,a4paper]{letter}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+\documentclass[12pt,a4paper,boldsubject,italicsignature,smartindent]{letteracdp}
 \usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage{layaureo}
 \usepackage{lipsum}
-
-\address{sig. Pietro Musocchi \\
-via Ugo Foscolo 9 \\
-20099 Sesto San Giovanni (Mi)}
-\signature{Pietro Musocchi} 
-\date{}
-
+\address{\textbf{Sergio Mancini} \\
+Via Bruno Buozzi, 174 \\
+20099 Sesto San Giovanni (MI)\\
+\bigskip\bigskip\bigskip\bigskip }
+\signature{\textbf{Sergio Mancini}\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip}
+%\date{} % al solito, la data è opzionale;
+% il valore predefinito è \today
+\place{Sesto San Giovanni}
 \begin{document}
+\begin{letter}{\textbf{Spett. Le Generali} \\
+\textbf{Agenzia Generale di Milano Fiera} \\
+V.le Famagosta, 75\\
+20142 Milano\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip}%
+[\underline{Riscatto totale Polizza Vita n. 31396225}]
+\opening{Spett. \textbf{Le Generali Ag. Gen. Fiera Milano},}
+Io sottoscritto \textbf{Sergio Mancini} nato a Milano il 2 Agosto 1942, e residente a Sesto San Giovanni in via Bruno Buozzi, 174  chiedo il riscatto totale della polizza vita in oggetto\textbf{(n.31396225)}con versamento di quanto dovutomi al seguente \textbf{IBAN IT	71G0306920705000032000175} presso la banca \textbf{Intesa San Paolo agenzia 03781 sita in p.za IV Novembre, 22 a Sesto San Giovanni}.
 
-	{Spett. Sig. Carlo Carli \\
-	via delle Scorregge 45 \\
-12100 Scaracozzo (nu)} \\ \\
+Dichiaro di non essere politicamente esposto, di avere la mia residenza solo in Italia e di avere un reddito annuale di circa €.30000.
+Resto in attesa di un  Vostro riscontro.
+\closing{Colgo l'occasione per inviarVi i miei saluti,}
 
-Come da accordi precedenti la informo di quanto successo in assemblea
-
-\closing{La saluto cordialmente}
-
-\ps{in allegato:\\
-fotocopia documento identità \\
-codice fiscale}
-
-	
+\begin{enclosures}
+	\item \underline{Copia documento d' identità }
+	\item \underline{Copia codice fiscale}
+\end{enclosures}
+\end{letter}
 \end{document}

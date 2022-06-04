@@ -1,0 +1,4 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {section}{\numberline {1}Inizio}{1}%
+\contentsline {section}{\numberline {2}Fine}{1}%
